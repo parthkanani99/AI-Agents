@@ -18,10 +18,10 @@ st.title("📧 Gmail Agent with Langchain + Inline Image")
 st.write("Describe your email and get a generated email with an inline image and signature sent via Gmail!")
 
 # Step 2: Set OpenAI API Key
-os.environ['OPENAI_API_KEY'] = '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'
+os.environ['OPENAI_API_KEY'] = '#Your OPENAI key'
 
 # Step 3: Gmail Credentials
-credentials_path = r"C:\\Users\\parth\\OneDrive\\Documents\\Gmail Agent\\.venv\\Gmail Agent\\credentials.json"
+credentials_path = r"#your Path\\credentials.json"
 
 try:
     # Get Gmail Credentials
